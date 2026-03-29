@@ -1,0 +1,3 @@
+FROM nginx:1.29.7
+RUN rm -f /usr/share/html/index.html
+COPY index.html /usr/share/html/index.html
